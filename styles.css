@@ -1,0 +1,415 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.head {
+    background-color: white;
+    display: flex;
+    /* border: 2px solid black; */
+}
+
+#navbar {
+    margin: 30px;
+}
+
+#navbar ul {
+    display: flex;
+    margin-left: 59px;
+    margin-top: 10px;
+}
+
+#navbar ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 14px 34px;
+    font-size: 2.2rem;
+    text-decoration: none;
+    /* border: 2px solid black; */
+    border-radius: 15px;
+}
+
+#navbar ul li a:hover {
+    background-color: rgba(42, 33, 33, 0.749);
+    color: white;
+    font-size: 2.3rem;
+}
+
+.head #links {
+    display: flex;
+    margin-left: 35vw;
+}
+
+.head #links button {
+    background: none;
+    border: none;
+    padding: 26px 31px;
+
+}
+
+.head #links button img {
+    height: 45px;
+}
+
+#description {
+    display: flex;
+    padding: 50px;
+    background-color: rgb(33, 29, 29);
+    height: 640px;
+    align-items: center;
+}
+
+#description div {
+    color: white;
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 1020px;
+    margin-top: 36px;
+    margin-left: 100px;
+}
+
+#description div .welcome {
+    font-size: 4rem;
+    margin-bottom: 30px;
+}
+
+#description div .name {
+    margin-top: 6px;
+    font-size: 5rem;
+}
+
+#description div .desc {
+    /* border: 2px solid white; */
+    margin-top: 35px;
+    margin-left: 22px;
+    width: 930px;
+    font-size: 2.3rem;
+    line-height: 65px;
+}
+
+#description img {
+    /* border: 2px solid white; */
+    border-radius: 35px;
+    display: inline;
+    height: 500px;
+    width: 500px;
+    margin-left: 70px;
+    margin-top: 47px;
+    margin-bottom: 53px;
+}
+
+.menu_heading {
+    background-color: rgb(238, 225, 225);
+    padding-left: 700px;
+    padding-right: 700px;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1px;
+}
+
+/* .menu_heading .left{
+    border: 2px solid black;
+} */
+
+.menu_heading .left img {
+    mix-blend-mode: multiply;
+    height: 107px;
+    width: 290px;
+}
+
+.menu_heading h1 {
+    /* border: 2px solid black; */
+    font-size: 5rem;
+    text-shadow: 12px 6px 17px white;
+}
+
+.menu_heading .right img {
+    mix-blend-mode: multiply;
+    height: 107px;
+    width: 290px;
+}
+
+#menu .menu_box {
+    display: flex;
+    /* margin: 3px; */
+    /* border: 2px solid black; */
+    /* background-color: rgb(245, 238, 223); */
+    height: 890px;
+    width: 2528px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    /* color: white; */
+}
+
+#menu .menu_box::before {
+    background: url(/menu_background.jpg) no-repeat center center/cover;
+    content: "";
+    height: 100%;
+    width: 2528px;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.4;
+    margin-top: 750px;
+}
+
+#menu .menu_box .starters {
+    text-align: center;
+    /* border: 2px solid black; */
+    padding: 3px;
+    margin: 3px;
+    margin-right: 75px;
+    font-size: 2.7rem;
+}
+
+#menu .menu_box .main_menu {
+    text-align: center;
+    /* border: 2px solid black; */
+    padding: 3px;
+    margin: 3px;
+    margin-right: 75px;
+    font-size: 2.7rem;
+}
+
+#menu .menu_box .drinks {
+    text-align: center;
+    /* border: 2px solid black; */
+    padding: 3px;
+    margin: 3px;
+    font-size: 2.7rem;
+}
+
+#menu .menu_box .starters img {
+    box-shadow: 5px 3px 24px 6px gray;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+#menu .menu_box .main_menu img {
+    box-shadow: 5px 3px 24px 6px gray;
+    border-radius: 30px;
+    margin-top: 20px;
+    height: 703px;
+    width: 831px;
+}
+
+#menu .menu_box .drinks img {
+    box-shadow: 5px 3px 24px 6px gray;
+    border-radius: 30px;
+    margin-top: 20px;
+    width: 560px;
+}
+
+.review_heading {
+    background-color: rgb(243, 226, 226);
+    padding-top: 47px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.review_heading #first_line {
+    /* display: block; */
+    /* border: 2px solid black; */
+    width: 400px;
+    margin: auto;
+    font-size: 4.5rem;
+    text-shadow: 12px 6px 17px white;
+    margin-bottom: 18px;
+}
+
+.review_heading img{
+    mix-blend-mode: multiply;
+    height: 90px;
+    width: 880px;
+    margin-top: -22px;
+}
+
+#reviews h1{
+    font-size: 2.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(244, 238, 231);
+    text-align: center;
+    height: 89px;
+    padding-top: 31px;
+}
+
+
+#reviews .first_row {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    padding-top: 50px;
+    padding-left: 120px;
+    padding-right: 120px;
+    background-color: rgb(244, 238, 231);
+}
+
+#reviews .first_row .one {
+    padding: 14px;
+    text-align: center;
+    border: 5px solid black;
+    width: 500px;
+    box-shadow: 7px 0px 33px -2px black;
+    border-radius: 14px;
+}
+
+#reviews .first_row .one img {
+    border-radius: 40px;
+    height: 100px;
+    width: 100px;
+}
+
+#reviews .first_row .two {
+    padding: 14px;
+    text-align: center;
+    border: 5px solid black;
+    width: 500px;
+    box-shadow: 7px 0px 33px -2px black;
+    border-radius: 14px;
+}
+
+#reviews .first_row .two img {
+    border-radius: 68px;
+    height: 119px;
+    width: 110px;
+}
+
+#reviews .first_row .three {
+    padding: 14px;
+    text-align: center;
+    border: 5px solid black;
+    width: 500px;
+    box-shadow: 7px 0px 33px -2px black;
+    border-radius: 14px;
+}
+
+#reviews .first_row .three img {
+    border-radius: 40px;
+    height: 100px;
+    width: 100px;
+}
+
+#reviews .first_row .four {
+    padding: 14px;
+    text-align: center;
+    border: 5px solid black;
+    width: 500px;
+    box-shadow: 7px 0px 33px -2px black;
+    border-radius: 14px;
+}
+
+#reviews .first_row .four img {
+    border-radius: 40px;
+    height: 115px;
+    width: 108px;
+}
+
+#reviews .first_row .name {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+}
+
+#reviews .first_row .desc {
+    margin-top: 30px;
+    font-size: 2rem;
+}
+
+#booking{
+    /* border: 3px solid black; */
+    padding: 25px;
+    height: 800px;
+}
+
+.booking_heading {
+    background-color: rgb(243, 226, 226);
+    padding-top: 47px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.booking_heading h1{
+    /* border: 2px solid black; */
+    width: 549px;
+    margin: auto;
+    font-size: 4.5rem;
+    text-shadow: 12px 6px 17px white;
+    margin-bottom: 18px;
+}
+
+.booking_heading img{
+    mix-blend-mode: multiply;
+    height: 90px;
+    width: 880px;
+    margin-top: -22px;
+}
+
+#booking::before{
+    background: url(booking_bg.jpg) no-repeat center center/cover;
+    content: "";
+    top: 0px;
+    left: 0px;
+    height: 110%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
+    position: absolute;
+    margin-top: 2950px;
+}
+
+#booking #book_form form{
+    background-color: rgba(0, 0, 0, 0.778);
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    padding: 50px;
+    margin-top: 30px;
+    margin-left: 850px;
+    border: 3px solid black;
+    padding-bottom: 15px;
+}
+
+#booking #book_form form p{
+    font-size: 2rem;
+    color: rgb(255, 254, 254);
+    font-weight: bolder;
+}
+
+#booking #book_form form input{
+    font-size: 25px;
+    text-align: center;
+    margin: 25px;
+    border-radius: 8px;
+    padding: 3px;
+    border: 3px solid black;
+    background-color: antiquewhite;
+    height: 50px;
+}
+
+#booking #book_form form input[type="submit"]{
+    width: 200px;
+    margin: 50px auto;
+    height: 60px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+#booking #book_form form input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: rgb(245, 215, 186);
+}
+
