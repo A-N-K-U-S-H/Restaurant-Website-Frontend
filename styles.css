@@ -7,7 +7,6 @@
 .head {
     background-color: white;
     display: flex;
-    /* border: 2px solid black; */
 }
 
 #navbar {
@@ -30,7 +29,6 @@
     padding: 14px 34px;
     font-size: 2.2rem;
     text-decoration: none;
-    /* border: 2px solid black; */
     border-radius: 15px;
 }
 
@@ -66,7 +64,6 @@
 
 #description div {
     color: white;
-    /* border: 2px solid white; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -88,7 +85,6 @@
 }
 
 #description div .desc {
-    /* border: 2px solid white; */
     margin-top: 35px;
     margin-left: 22px;
     width: 930px;
@@ -97,7 +93,6 @@
 }
 
 #description img {
-    /* border: 2px solid white; */
     border-radius: 35px;
     display: inline;
     height: 500px;
@@ -119,10 +114,6 @@
     margin-bottom: 1px;
 }
 
-/* .menu_heading .left{
-    border: 2px solid black;
-} */
-
 .menu_heading .left img {
     mix-blend-mode: multiply;
     height: 107px;
@@ -130,7 +121,6 @@
 }
 
 .menu_heading h1 {
-    /* border: 2px solid black; */
     font-size: 5rem;
     text-shadow: 12px 6px 17px white;
 }
@@ -143,15 +133,11 @@
 
 #menu .menu_box {
     display: flex;
-    /* margin: 3px; */
-    /* border: 2px solid black; */
-    /* background-color: rgb(245, 238, 223); */
     height: 890px;
     width: 2528px;
     padding: 20px;
     align-items: center;
     justify-content: center;
-    /* color: white; */
 }
 
 #menu .menu_box::before {
@@ -169,7 +155,6 @@
 
 #menu .menu_box .starters {
     text-align: center;
-    /* border: 2px solid black; */
     padding: 3px;
     margin: 3px;
     margin-right: 75px;
@@ -178,7 +163,6 @@
 
 #menu .menu_box .main_menu {
     text-align: center;
-    /* border: 2px solid black; */
     padding: 3px;
     margin: 3px;
     margin-right: 75px;
@@ -187,7 +171,6 @@
 
 #menu .menu_box .drinks {
     text-align: center;
-    /* border: 2px solid black; */
     padding: 3px;
     margin: 3px;
     font-size: 2.7rem;
@@ -222,8 +205,6 @@
 }
 
 .review_heading #first_line {
-    /* display: block; */
-    /* border: 2px solid black; */
     width: 400px;
     margin: auto;
     font-size: 4.5rem;
@@ -329,7 +310,6 @@
 }
 
 #booking{
-    /* border: 3px solid black; */
     padding: 25px;
     height: 800px;
 }
@@ -342,7 +322,6 @@
 }
 
 .booking_heading h1{
-    /* border: 2px solid black; */
     width: 549px;
     margin: auto;
     font-size: 4.5rem;
